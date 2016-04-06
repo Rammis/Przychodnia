@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Badania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Badania.Designer.cs">
+      <DependentUpon>Badania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratorium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratorium.Designer.cs">
+      <DependentUpon>Laboratorium.cs</DependentUpon>
+    </Compile>
     <Compile Include="LekarzA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,19 +68,16 @@
     <Compile Include="LekarzB.Designer.cs">
       <DependentUpon>LekarzB.cs</DependentUpon>
     </Compile>
-    <Compile Include="Laboratorium.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Laboratorium.Designer.cs">
-      <DependentUpon>Laboratorium.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LekarzA.resx">
-      <DependentUpon>LekarzA.cs</DependentUpon>
+    <EmbeddedResource Include="Badania.resx">
+      <DependentUpon>Badania.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Laboratorium.resx">
       <DependentUpon>Laboratorium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LekarzA.resx">
+      <DependentUpon>LekarzA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
