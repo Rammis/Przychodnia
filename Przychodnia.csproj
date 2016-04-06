@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BadaniaFizykalne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BadaniaFizykalne.Designer.cs">
+      <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
+    </Compile>
     <Compile Include="LekarzA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,12 +62,6 @@
     <Compile Include="LekarzB.Designer.cs">
       <DependentUpon>LekarzB.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
-    </Compile>
     <Compile Include="Laboratorium.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +70,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BadaniaFizykalne.resx">
+      <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LekarzA.resx">
       <DependentUpon>LekarzA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LekarzB.resx">
+      <DependentUpon>LekarzB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

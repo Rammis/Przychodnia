@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Przychodnia
 {
-    public partial class Form3 : Form
+    public partial class BadaniaFizykalne : Form
     {
-        public Form3()
+        public BadaniaFizykalne()
         {
             InitializeComponent();
         }
+
+        private void BadaniaFizykalne_Load(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add("255", "Grypa");
+            dataGridView1.Rows.Add("585", "Ospa");
+        }
+
+        
+
+       
     }
 }

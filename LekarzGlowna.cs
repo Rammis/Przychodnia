@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace Przychodnia
 {
-    public partial class LekarzA : Form
+    public partial class LekarzGlowna : Form
     {
-        public LekarzA()
+        public LekarzGlowna()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
+            dataGridView1.Rows.Add("Adam", "Małysz", "21-03-2006", "Rezerwacja");
+            dataGridView1.Rows.Add("Ola", "Kowalska", "21-03-2007", "Odwołano");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -46,5 +48,16 @@ namespace Przychodnia
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            Wizyta childForm = new Wizyta();
+            
+              childForm.ShowDialog();
+        }
+
+       
+
     }
 }
