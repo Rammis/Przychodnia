@@ -1,6 +1,6 @@
 ﻿namespace Przychodnia
 {
-    partial class Form2
+    partial class LekarzB
     {
         /// <summary>
         /// Required designer variable.
