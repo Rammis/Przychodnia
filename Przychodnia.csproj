@@ -50,17 +50,23 @@
     <Compile Include="BadaniaFizykalne.Designer.cs">
       <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
     </Compile>
-    <Compile Include="LekarzA.cs">
+    <Compile Include="LekarzGlowna.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LekarzA.Designer.cs">
-      <DependentUpon>LekarzA.cs</DependentUpon>
+    <Compile Include="LekarzGlowna.Designer.cs">
+      <DependentUpon>LekarzGlowna.cs</DependentUpon>
     </Compile>
-    <Compile Include="LekarzB.cs">
+    <Compile Include="ListaBadanLaboratoryjnych.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LekarzB.Designer.cs">
-      <DependentUpon>LekarzB.cs</DependentUpon>
+    <Compile Include="ListaBadanLaboratoryjnych.Designer.cs">
+      <DependentUpon>ListaBadanLaboratoryjnych.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizyta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizyta.Designer.cs">
+      <DependentUpon>Wizyta.cs</DependentUpon>
     </Compile>
     <Compile Include="Laboratorium.cs">
       <SubType>Form</SubType>
@@ -68,16 +74,34 @@
     <Compile Include="Laboratorium.Designer.cs">
       <DependentUpon>Laboratorium.cs</DependentUpon>
     </Compile>
+    <Compile Include="Badanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Badanie.Designer.cs">
+      <DependentUpon>Badanie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SlownikBadanFizykalnych.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlownikBadanFizykalnych.Designer.cs">
+      <DependentUpon>SlownikBadanFizykalnych.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BadaniaFizykalne.resx">
       <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LekarzA.resx">
-      <DependentUpon>LekarzA.cs</DependentUpon>
+    <EmbeddedResource Include="LekarzGlowna.resx">
+      <DependentUpon>LekarzGlowna.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LekarzB.resx">
-      <DependentUpon>LekarzB.cs</DependentUpon>
+    <EmbeddedResource Include="ListaBadanLaboratoryjnych.resx">
+      <DependentUpon>ListaBadanLaboratoryjnych.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizyta.resx">
+      <DependentUpon>Wizyta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Badanie.resx">
+      <DependentUpon>Badanie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +112,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SlownikBadanFizykalnych.resx">
+      <DependentUpon>SlownikBadanFizykalnych.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -19,8 +19,25 @@ namespace Przychodnia
 
         private void BadaniaFizykalne_Load(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Add("255", "Grypa");
-            dataGridView1.Rows.Add("585", "Ospa");
+            dataGridView1.Rows.Add("1","255", "Grypa");
+            dataGridView1.Rows.Add("2","585", "Ospa");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Badanie noweBadanie = new Badanie();
+            noweBadanie.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Badanie noweBadanie = new Badanie();
+            noweBadanie.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         

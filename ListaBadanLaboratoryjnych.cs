@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace Przychodnia
 {
-    public partial class SlownikBadan : Form
+    public partial class ListaBadanLaboratoryjnych : Form
     {
-        public SlownikBadan()
+        public ListaBadanLaboratoryjnych()
         {
             InitializeComponent();
         }
-
-        
     }
 }

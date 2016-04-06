@@ -9,6 +9,9 @@ C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\ob
 C:\Users\Marcin\Source\Repos\Przychodnia\bin\Debug\Przychodnia.exe.config
 C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.exe
 C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.pdb
-C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.LekarzB.resources
-C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.LekarzA.resources
 C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.BadaniaFizykalne.resources
+C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.LekarzGlowna.resources
+C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Wizyta.resources
+C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Badanie.resources
+C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.SlownikBadanFizykalnych.resources
+C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.ListaBadanLaboratoryjnych.resources

@@ -227,7 +227,7 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // LekarzB
+            // Wizyta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -251,8 +251,10 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "LekarzB";
-            this.Text = "Form2";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "Wizyta";
+            this.Text = "Wizyta";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LekarzB_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -10,15 +10,13 @@ using System.Windows.Forms;
 
 namespace Przychodnia
 {
-    public partial class NoweBadanie : Form
+    public partial class SlownikBadanFizykalnych : Form
     {
-        public NoweBadanie()
+        public SlownikBadanFizykalnych()
         {
             InitializeComponent();
         }
 
         
-
-       
     }
 }
