@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Przychodnia
 {
-    public partial class Form3 : Form
+    public partial class Badania : Form
     {
-        public Form3()
+        public Badania()
         {
             InitializeComponent();
         }
+
     }
 }
