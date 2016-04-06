@@ -44,11 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Badania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Badania.Designer.cs">
+      <DependentUpon>Badania.cs</DependentUpon>
+    </Compile>
     <Compile Include="BadaniaFizykalne.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BadaniaFizykalne.Designer.cs">
       <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdycjaPacjenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdycjaPacjenta.Designer.cs">
+      <DependentUpon>EdycjaPacjenta.cs</DependentUpon>
     </Compile>
     <Compile Include="LekarzGlowna.cs">
       <SubType>Form</SubType>
@@ -61,6 +73,24 @@
     </Compile>
     <Compile Include="ListaBadanLaboratoryjnych.Designer.cs">
       <DependentUpon>ListaBadanLaboratoryjnych.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NowyPacjent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NowyPacjent.Designer.cs">
+      <DependentUpon>NowyPacjent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RejestracjaPacjenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RejestracjaPacjenta.Designer.cs">
+      <DependentUpon>RejestracjaPacjenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rejestratorka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rejestratorka.Designer.cs">
+      <DependentUpon>Rejestratorka.cs</DependentUpon>
     </Compile>
     <Compile Include="Wizyta.cs">
       <SubType>Form</SubType>
@@ -88,14 +118,32 @@
     <Compile Include="SlownikBadanFizykalnych.Designer.cs">
       <DependentUpon>SlownikBadanFizykalnych.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Badania.resx">
+      <DependentUpon>Badania.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BadaniaFizykalne.resx">
       <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdycjaPacjenta.resx">
+      <DependentUpon>EdycjaPacjenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratorium.resx">
+      <DependentUpon>Laboratorium.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LekarzGlowna.resx">
       <DependentUpon>LekarzGlowna.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListaBadanLaboratoryjnych.resx">
       <DependentUpon>ListaBadanLaboratoryjnych.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NowyPacjent.resx">
+      <DependentUpon>NowyPacjent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RejestracjaPacjenta.resx">
+      <DependentUpon>RejestracjaPacjenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rejestratorka.resx">
+      <DependentUpon>Rejestratorka.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizyta.resx">
       <DependentUpon>Wizyta.cs</DependentUpon>
