@@ -16,7 +16,11 @@ namespace Przychodnia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new LekarzGlowna());
+=======
+            Application.Run(new Laboratorium());
+>>>>>>> 737038cd7ad6f17432a34455159799d378e9a933
         }
     }
 }
