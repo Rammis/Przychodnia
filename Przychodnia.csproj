@@ -44,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDodaj.Designer.cs">
+      <DependentUpon>AdminDodaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEdytuj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEdytuj.Designer.cs">
+      <DependentUpon>AdminEdytuj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator.Designer.cs">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </Compile>
     <Compile Include="Badania.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +142,15 @@
     <Compile Include="SlownikBadanFizykalnych.Designer.cs">
       <DependentUpon>SlownikBadanFizykalnych.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminDodaj.resx">
+      <DependentUpon>AdminDodaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminEdytuj.resx">
+      <DependentUpon>AdminEdytuj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrator.resx">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Badania.resx">
       <DependentUpon>Badania.cs</DependentUpon>
     </EmbeddedResource>

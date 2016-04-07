@@ -22,3 +22,6 @@ C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\ob
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.RejestracjaPacjenta.resources
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Rejestratorka.resources
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.SlownikBadanLab.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.AdminDodaj.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.AdminEdytuj.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Administrator.resources
