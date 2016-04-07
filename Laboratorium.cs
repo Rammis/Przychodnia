@@ -27,5 +27,11 @@ namespace Przychodnia
             charCounterLab.Text = uwagiLabBadania.TextLength.ToString() + " / 150";
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SlownikBadanLab slownikBadabLab = new SlownikBadanLab();
+            slownikBadabLab.ShowDialog();
+        }
+
     }
 }

@@ -15,3 +15,10 @@ C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\ob
 C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Badanie.resources
 C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.SlownikBadanFizykalnych.resources
 C:\Users\Johnny\documents\visual studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.ListaBadanLaboratoryjnych.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Badania.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.EdycjaPacjenta.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Laboratorium.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.NowyPacjent.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.RejestracjaPacjenta.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Rejestratorka.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.SlownikBadanLab.resources

@@ -30,6 +30,8 @@
         {
             this.Tab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -62,8 +64,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.charCounterKLab = new System.Windows.Forms.Label();
             this.uwagiKLabBadania = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.Tab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -109,6 +109,26 @@
             this.tabPage1.Size = new System.Drawing.Size(598, 202);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Lekarz";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBox9.Location = new System.Drawing.Point(110, 47);
+            this.textBox9.MaxLength = 15;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(88, 27);
+            this.textBox9.TabIndex = 30;
+            this.textBox9.Text = "Bx0045";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(204, 47);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(34, 27);
+            this.button6.TabIndex = 29;
+            this.button6.Text = "...";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label8
             // 
@@ -389,7 +409,7 @@
             this.uwagiLabBadania.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.uwagiLabBadania.Size = new System.Drawing.Size(232, 118);
             this.uwagiLabBadania.TabIndex = 5;
-            this.uwagiLabBadania.Text = "Przeprwadzonao badanie.";
+            this.uwagiLabBadania.Text = "Przeprowadzono badanie.";
             this.uwagiLabBadania.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // tabPage3
@@ -473,25 +493,6 @@
             this.uwagiKLabBadania.TabIndex = 0;
             this.uwagiKLabBadania.Text = "Nieczytelne wyniki.";
             this.uwagiKLabBadania.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(204, 47);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(34, 27);
-            this.button6.TabIndex = 29;
-            this.button6.Text = "...";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox9.Location = new System.Drawing.Point(110, 47);
-            this.textBox9.MaxLength = 15;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(88, 27);
-            this.textBox9.TabIndex = 30;
-            this.textBox9.Text = "Bx0045";
             // 
             // Laboratorium
             // 

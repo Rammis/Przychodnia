@@ -92,6 +92,12 @@
     <Compile Include="Rejestratorka.Designer.cs">
       <DependentUpon>Rejestratorka.cs</DependentUpon>
     </Compile>
+    <Compile Include="SlownikBadanLab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlownikBadanLab.Designer.cs">
+      <DependentUpon>SlownikBadanLab.cs</DependentUpon>
+    </Compile>
     <Compile Include="Wizyta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rejestratorka.resx">
       <DependentUpon>Rejestratorka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlownikBadanLab.resx">
+      <DependentUpon>SlownikBadanLab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizyta.resx">
       <DependentUpon>Wizyta.cs</DependentUpon>
