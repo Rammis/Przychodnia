@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using BizzLayer;
 namespace Przychodnia
 {
     public partial class frmBadaniaFizykalne : Form
@@ -15,12 +16,13 @@ namespace Przychodnia
         public frmBadaniaFizykalne()
         {
             InitializeComponent();
+            dataGridView1.Columns.Clear();
+            dataGridView1.DataSource = SlownikBadanFacade.GetBadania();
         }
 
         private void BadaniaFizykalne_Load(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Add("1","255", "Grypa");
-            dataGridView1.Rows.Add("2","585", "Ospa");
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,8 +42,8 @@ namespace Przychodnia
             this.Close();
         }
 
-        
 
-       
+
+
     }
 }

@@ -44,148 +44,148 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminDodaj.cs">
+    <Compile Include="frmAdminDodaj.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminDodaj.Designer.cs">
-      <DependentUpon>AdminDodaj.cs</DependentUpon>
+    <Compile Include="frmAdminDodaj.Designer.cs">
+      <DependentUpon>frmAdminDodaj.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminEdytuj.cs">
+    <Compile Include="frmAdminEdytuj.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminEdytuj.Designer.cs">
-      <DependentUpon>AdminEdytuj.cs</DependentUpon>
+    <Compile Include="frmAdminEdytuj.Designer.cs">
+      <DependentUpon>frmAdminEdytuj.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrator.cs">
+    <Compile Include="frmAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrator.Designer.cs">
-      <DependentUpon>Administrator.cs</DependentUpon>
+    <Compile Include="frmAdministrator.Designer.cs">
+      <DependentUpon>frmAdministrator.cs</DependentUpon>
     </Compile>
-    <Compile Include="Badania.cs">
+    <Compile Include="frmBadania.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Badania.Designer.cs">
-      <DependentUpon>Badania.cs</DependentUpon>
+    <Compile Include="frmBadania.Designer.cs">
+      <DependentUpon>frmBadania.cs</DependentUpon>
     </Compile>
-    <Compile Include="BadaniaFizykalne.cs">
+    <Compile Include="frmBadaniaFizykalne.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BadaniaFizykalne.Designer.cs">
-      <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
+    <Compile Include="frmBadaniaFizykalne.Designer.cs">
+      <DependentUpon>frmBadaniaFizykalne.cs</DependentUpon>
     </Compile>
-    <Compile Include="EdycjaPacjenta.cs">
+    <Compile Include="frmEdycjaPacjenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EdycjaPacjenta.Designer.cs">
-      <DependentUpon>EdycjaPacjenta.cs</DependentUpon>
+    <Compile Include="frmEdycjaPacjenta.Designer.cs">
+      <DependentUpon>frmEdycjaPacjenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="LekarzGlowna.cs">
+    <Compile Include="frmLekarzGlowna.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LekarzGlowna.Designer.cs">
-      <DependentUpon>LekarzGlowna.cs</DependentUpon>
+    <Compile Include="frmLekarzGlowna.Designer.cs">
+      <DependentUpon>frmLekarzGlowna.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaBadanLaboratoryjnych.cs">
+    <Compile Include="frmListaBadanLaboratoryjnych.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaBadanLaboratoryjnych.Designer.cs">
-      <DependentUpon>ListaBadanLaboratoryjnych.cs</DependentUpon>
+    <Compile Include="frmListaBadanLaboratoryjnych.Designer.cs">
+      <DependentUpon>frmListaBadanLaboratoryjnych.cs</DependentUpon>
     </Compile>
-    <Compile Include="NowyPacjent.cs">
+    <Compile Include="frmNowyPacjent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NowyPacjent.Designer.cs">
-      <DependentUpon>NowyPacjent.cs</DependentUpon>
+    <Compile Include="frmNowyPacjent.Designer.cs">
+      <DependentUpon>frmNowyPacjent.cs</DependentUpon>
     </Compile>
-    <Compile Include="RejestracjaPacjenta.cs">
+    <Compile Include="frmRejestracjaPacjenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RejestracjaPacjenta.Designer.cs">
-      <DependentUpon>RejestracjaPacjenta.cs</DependentUpon>
+    <Compile Include="frmRejestracjaPacjenta.Designer.cs">
+      <DependentUpon>frmRejestracjaPacjenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Rejestratorka.cs">
+    <Compile Include="frmRejestratorka.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Rejestratorka.Designer.cs">
-      <DependentUpon>Rejestratorka.cs</DependentUpon>
+    <Compile Include="frmRejestratorka.Designer.cs">
+      <DependentUpon>frmRejestratorka.cs</DependentUpon>
     </Compile>
-    <Compile Include="SlownikBadanLab.cs">
+    <Compile Include="frmSlownikBadanLab.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SlownikBadanLab.Designer.cs">
-      <DependentUpon>SlownikBadanLab.cs</DependentUpon>
+    <Compile Include="frmSlownikBadanLab.Designer.cs">
+      <DependentUpon>frmSlownikBadanLab.cs</DependentUpon>
     </Compile>
-    <Compile Include="Wizyta.cs">
+    <Compile Include="frmWizyta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Wizyta.Designer.cs">
-      <DependentUpon>Wizyta.cs</DependentUpon>
+    <Compile Include="frmWizyta.Designer.cs">
+      <DependentUpon>frmWizyta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Laboratorium.cs">
+    <Compile Include="frmLaboratorium.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Laboratorium.Designer.cs">
-      <DependentUpon>Laboratorium.cs</DependentUpon>
+    <Compile Include="frmLaboratorium.Designer.cs">
+      <DependentUpon>frmLaboratorium.cs</DependentUpon>
     </Compile>
-    <Compile Include="Badanie.cs">
+    <Compile Include="frmBadanie.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Badanie.Designer.cs">
-      <DependentUpon>Badanie.cs</DependentUpon>
+    <Compile Include="frmBadanie.Designer.cs">
+      <DependentUpon>frmBadanie.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SlownikBadanFizykalnych.cs">
+    <Compile Include="frmSlownikBadanFizykalnych.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SlownikBadanFizykalnych.Designer.cs">
-      <DependentUpon>SlownikBadanFizykalnych.cs</DependentUpon>
+    <Compile Include="frmSlownikBadanFizykalnych.Designer.cs">
+      <DependentUpon>frmSlownikBadanFizykalnych.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdminDodaj.resx">
-      <DependentUpon>AdminDodaj.cs</DependentUpon>
+    <EmbeddedResource Include="frmAdminDodaj.resx">
+      <DependentUpon>frmAdminDodaj.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminEdytuj.resx">
-      <DependentUpon>AdminEdytuj.cs</DependentUpon>
+    <EmbeddedResource Include="frmAdminEdytuj.resx">
+      <DependentUpon>frmAdminEdytuj.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrator.resx">
-      <DependentUpon>Administrator.cs</DependentUpon>
+    <EmbeddedResource Include="frmAdministrator.resx">
+      <DependentUpon>frmAdministrator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Badania.resx">
-      <DependentUpon>Badania.cs</DependentUpon>
+    <EmbeddedResource Include="frmBadania.resx">
+      <DependentUpon>frmBadania.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BadaniaFizykalne.resx">
-      <DependentUpon>BadaniaFizykalne.cs</DependentUpon>
+    <EmbeddedResource Include="frmBadaniaFizykalne.resx">
+      <DependentUpon>frmBadaniaFizykalne.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EdycjaPacjenta.resx">
-      <DependentUpon>EdycjaPacjenta.cs</DependentUpon>
+    <EmbeddedResource Include="frmEdycjaPacjenta.resx">
+      <DependentUpon>frmEdycjaPacjenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Laboratorium.resx">
-      <DependentUpon>Laboratorium.cs</DependentUpon>
+    <EmbeddedResource Include="frmLaboratorium.resx">
+      <DependentUpon>frmLaboratorium.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LekarzGlowna.resx">
-      <DependentUpon>LekarzGlowna.cs</DependentUpon>
+    <EmbeddedResource Include="frmLekarzGlowna.resx">
+      <DependentUpon>frmLekarzGlowna.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaBadanLaboratoryjnych.resx">
-      <DependentUpon>ListaBadanLaboratoryjnych.cs</DependentUpon>
+    <EmbeddedResource Include="frmListaBadanLaboratoryjnych.resx">
+      <DependentUpon>frmListaBadanLaboratoryjnych.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NowyPacjent.resx">
-      <DependentUpon>NowyPacjent.cs</DependentUpon>
+    <EmbeddedResource Include="frmNowyPacjent.resx">
+      <DependentUpon>frmNowyPacjent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RejestracjaPacjenta.resx">
-      <DependentUpon>RejestracjaPacjenta.cs</DependentUpon>
+    <EmbeddedResource Include="frmRejestracjaPacjenta.resx">
+      <DependentUpon>frmRejestracjaPacjenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Rejestratorka.resx">
-      <DependentUpon>Rejestratorka.cs</DependentUpon>
+    <EmbeddedResource Include="frmRejestratorka.resx">
+      <DependentUpon>frmRejestratorka.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SlownikBadanLab.resx">
-      <DependentUpon>SlownikBadanLab.cs</DependentUpon>
+    <EmbeddedResource Include="frmSlownikBadanLab.resx">
+      <DependentUpon>frmSlownikBadanLab.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Wizyta.resx">
-      <DependentUpon>Wizyta.cs</DependentUpon>
+    <EmbeddedResource Include="frmWizyta.resx">
+      <DependentUpon>frmWizyta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Badanie.resx">
-      <DependentUpon>Badanie.cs</DependentUpon>
+    <EmbeddedResource Include="frmBadanie.resx">
+      <DependentUpon>frmBadanie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -196,8 +196,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SlownikBadanFizykalnych.resx">
-      <DependentUpon>SlownikBadanFizykalnych.cs</DependentUpon>
+    <EmbeddedResource Include="frmSlownikBadanFizykalnych.resx">
+      <DependentUpon>frmSlownikBadanFizykalnych.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

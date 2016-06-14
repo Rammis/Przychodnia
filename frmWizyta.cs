@@ -12,16 +12,20 @@ namespace Przychodnia
 {
     public partial class frmWizyta : Form
     {
-        public frmWizyta()
+        public frmWizyta(String _imie, String _nazwisko, String _data_rej, String _stan)
         {
             InitializeComponent();
+            textBox4.Text = _imie;
+            textBox1.Text = _nazwisko;
+            textBox3.Text = _data_rej;
+            textBox2.Text = _stan;
         }
 
         private void LekarzB_FormClosed(object sender, FormClosedEventArgs e)
         {
 
-            
-           
+
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -55,8 +59,14 @@ namespace Przychodnia
             newBadaniaFizykalne.ShowDialog();
         }
 
-      
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmListaBadanLaboratoryjnych newListaBadanLaboratoryjnych = new frmListaBadanLaboratoryjnych();
+            newListaBadanLaboratoryjnych.ShowDialog();
+        }
 
-       
+
+
+
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using BizzLayer;
 namespace Przychodnia
 {
     public partial class frmLekarzGlowna : Form
@@ -15,13 +16,14 @@ namespace Przychodnia
         public frmLekarzGlowna()
         {
             InitializeComponent();
+            dataGridView1.Columns.Clear();
+            dataGridView1.DataSource = DoctorFacade.GetVisits();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-            dataGridView1.Rows.Add("Adam", "Małysz", "21-03-2006", "Rezerwacja");
-            dataGridView1.Rows.Add("Ola", "Kowalska", "21-03-2007", "Odwołano");
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -51,13 +53,32 @@ namespace Przychodnia
 
         private void button4_Click(object sender, EventArgs e)
         {
+            String imie;
+            String nazwisko;
+            String data_rej;
+            String stan;
 
-            frmWizyta childForm = new frmWizyta();
-            
-              childForm.ShowDialog();
+            Int32 selectedRowCount = dataGridView1.Rows.GetRowCount(DataGridViewElementStates.Selected);
+
+            if (selectedRowCount == 1)
+            {
+                imie = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+                nazwisko = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+                data_rej = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+                stan = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
+
+                frmWizyta childForm = new frmWizyta(imie, nazwisko, data_rej, stan);
+
+                childForm.ShowDialog();
+            }
+            else if (selectedRowCount > 1)
+                MessageBox.Show("Zaznaczyles wiecej niz jedna wizyte!");
+            else if (selectedRowCount == 0)
+                MessageBox.Show("Nie zaznaczyles wizyty!");
+
         }
 
-       
+
 
     }
 }
