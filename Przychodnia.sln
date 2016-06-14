@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Przychodnia", "Przychodnia.csproj", "{2B85DB74-8417-46BE-8593-D5F3C8B68F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{04F978E9-691A-4FDF-A2EA-AFD7ADE4065D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizzLayer", "BizzLayer\BizzLayer.csproj", "{59AB3CF2-8DE2-4DAA-A73C-2368BF9CF0CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2B85DB74-8417-46BE-8593-D5F3C8B68F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B85DB74-8417-46BE-8593-D5F3C8B68F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B85DB74-8417-46BE-8593-D5F3C8B68F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F978E9-691A-4FDF-A2EA-AFD7ADE4065D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F978E9-691A-4FDF-A2EA-AFD7ADE4065D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F978E9-691A-4FDF-A2EA-AFD7ADE4065D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F978E9-691A-4FDF-A2EA-AFD7ADE4065D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AB3CF2-8DE2-4DAA-A73C-2368BF9CF0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AB3CF2-8DE2-4DAA-A73C-2368BF9CF0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AB3CF2-8DE2-4DAA-A73C-2368BF9CF0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AB3CF2-8DE2-4DAA-A73C-2368BF9CF0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

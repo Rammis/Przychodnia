@@ -212,6 +212,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BizzLayer\BizzLayer.csproj">
+      <Project>{59ab3cf2-8de2-4daa-a73c-2368bf9cf0ce}</Project>
+      <Name>BizzLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="DataLayer\DataLayer.csproj">
+      <Project>{04f978e9-691a-4fdf-a2ea-afd7ade4065d}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

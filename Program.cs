@@ -17,7 +17,7 @@ namespace Przychodnia
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new LekarzGlowna());
+            Application.Run(new frmLekarzGlowna());
            // Application.Run(new Laboratorium());
         }
     }

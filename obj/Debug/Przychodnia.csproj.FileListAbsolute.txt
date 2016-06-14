@@ -25,3 +25,7 @@ C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\ob
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.AdminDodaj.resources
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.AdminEdytuj.resources
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Administrator.resources
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bin\Debug\BizzLayer.dll
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bin\Debug\DataLayer.dll
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bin\Debug\BizzLayer.pdb
+C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bin\Debug\DataLayer.pdb
