@@ -50,7 +50,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(22, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(250, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(432, 150);
             this.dataGridView1.TabIndex = 0;
             // 
             // Kod
@@ -67,32 +67,33 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(22, 196);
+            this.button1.Location = new System.Drawing.Point(78, 196);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 40);
             this.button1.TabIndex = 1;
             this.button1.Text = "Zatwierdź";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(156, 196);
+            this.button2.Location = new System.Drawing.Point(316, 196);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 40);
             this.button2.TabIndex = 2;
             this.button2.Text = "Powrót";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // SlownikBadanFizykalnych
+            // frmSlownikBadanFizykalnych
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(485, 261);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.MaximizeBox = false;
-            this.Name = "SlownikBadanFizykalnych";
+            this.Name = "frmSlownikBadanFizykalnych";
             this.Text = "SlownikBadan";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

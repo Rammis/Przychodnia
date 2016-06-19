@@ -32,8 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -128,11 +131,11 @@
     <Compile Include="frmLaboratorium.Designer.cs">
       <DependentUpon>frmLaboratorium.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmBadanie.cs">
+    <Compile Include="frmBadanieFizykalne.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBadanie.Designer.cs">
-      <DependentUpon>frmBadanie.cs</DependentUpon>
+    <Compile Include="frmBadanieFizykalne.Designer.cs">
+      <DependentUpon>frmBadanieFizykalne.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -184,8 +187,8 @@
     <EmbeddedResource Include="frmWizyta.resx">
       <DependentUpon>frmWizyta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBadanie.resx">
-      <DependentUpon>frmBadanie.cs</DependentUpon>
+    <EmbeddedResource Include="frmBadanieFizykalne.resx">
+      <DependentUpon>frmBadanieFizykalne.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

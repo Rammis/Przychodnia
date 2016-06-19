@@ -8,17 +8,45 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using BizzLayer;
+using DataLayer;
 namespace Przychodnia
 {
     public partial class frmWizyta : Form
     {
-        public frmWizyta(String _imie, String _nazwisko, String _data_rej, String _stan)
+        int id_wizyty;
+        
+        public frmWizyta(int _id, String _imie, String _nazwisko)
         {
             InitializeComponent();
-            textBox4.Text = _imie;
-            textBox1.Text = _nazwisko;
-            textBox3.Text = _data_rej;
-            textBox2.Text = _stan;
+            id_wizyty = _id;
+            var wizyta = DoctorFacade.GetVisit(id_wizyty);
+            textbox_imie.Text = _imie;
+            textbox_nazwisko.Text = _nazwisko;
+            textbox_datarej.Text = wizyta.data_rej.ToString();
+            textbox_stan.Text = wizyta.data_wyk_wizyty.ToString();
+            textbox_opis.Text = wizyta.opis;
+            textbox_stan.Text = wizyta.stan;
+            textbox_diagnoza.Text = wizyta.diagnoza;
+
+        }
+
+        public frmWizyta(int _id, String _imie, String _nazwisko,bool przeglad)
+        {
+            InitializeComponent();
+            id_wizyty = _id;
+            var wizyta = DoctorFacade.GetVisit(id_wizyty);
+            textbox_imie.Text = _imie;
+            textbox_nazwisko.Text = _nazwisko;
+            textbox_datarej.Text = wizyta.data_rej.ToString();
+            textbox_stan.Text = wizyta.data_wyk_wizyty.ToString();
+            textbox_opis.Text = wizyta.opis;
+            textbox_stan.Text = wizyta.stan;
+            textbox_diagnoza.Text = wizyta.diagnoza;
+
+            button_zakoncz.Visible = false;
+            button_anuluj.Visible = false;
+
         }
 
         private void LekarzB_FormClosed(object sender, FormClosedEventArgs e)
@@ -40,22 +68,41 @@ namespace Przychodnia
 
         private void button5_Click(object sender, EventArgs e)
         {
+            Wizyta wizyta = new Wizyta();
+            wizyta.id_wizyty = id_wizyty;
+            wizyta.stan = "Zakończona";
+            wizyta.opis = textbox_opis.Text;
+            wizyta.diagnoza = textbox_diagnoza.Text;
+            DoctorFacade.UpdateVisitData(wizyta);
             this.Close();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
+            Wizyta wizyta = new Wizyta();
+            wizyta.id_wizyty = id_wizyty;
+            wizyta.stan = "Anulowana";
+            wizyta.opis = textbox_opis.Text;
+            wizyta.diagnoza = textbox_diagnoza.Text;
+            DoctorFacade.UpdateVisitData(wizyta);
             this.Close();
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
+            Wizyta wizyta = new Wizyta();
+            wizyta.id_wizyty = id_wizyty;
+            wizyta.stan = textbox_stan.Text;
+            wizyta.opis = textbox_opis.Text;
+            wizyta.diagnoza = textbox_diagnoza.Text;
+            DoctorFacade.UpdateVisitData(wizyta);
             this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmBadaniaFizykalne newBadaniaFizykalne = new frmBadaniaFizykalne();
+            frmBadaniaFizykalne newBadaniaFizykalne = new frmBadaniaFizykalne(id_wizyty);
             newBadaniaFizykalne.ShowDialog();
         }
 

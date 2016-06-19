@@ -63,16 +63,29 @@ INSERT INTO [dbo].[K_Lab] (user_name) values ('szef55')
 /*Pacjenci*/
 INSERT INTO [dbo].[Pacjent] (nazwisko,imie,PESEL) VALUES ('Nowak','Danuta','94012508933')
 INSERT INTO [dbo].[Pacjent] (nazwisko,imie,PESEL) VALUES ('Staœko','Robert','96321508933')
-INSERT INTO [dbo].[Pacjent] (nazwisko,imie,PESEL) VALUES ('Bratek','Ada,','95245608933')
+INSERT INTO [dbo].[Pacjent] (nazwisko,imie,PESEL) VALUES ('Bratek','Ada','95245608933')
 
 /*S³ownik badañ*/
 INSERT INTO [dbo].[Slownik_badan] (typ,nazwa,opis) VALUES ('BF','Pomiar temperatury','Pomiar temperatury u pacjenta')
 INSERT INTO [dbo].[Slownik_badan] (typ,nazwa,opis) VALUES ('BF','Pomiar ciœnienia','Pomiar ciœnienia u pacjenta')
 INSERT INTO [dbo].[Slownik_badan] (typ,nazwa,opis) VALUES ('BL','Poziom cukru we krwi','Pomiar poziomu cukru we krwi pacjenta')
+INSERT INTO [dbo].[Slownik_badan] (typ,nazwa,opis) VALUES ('BL','Iloœæ czerwonych krwinek','Pomiar poziomu czerwonych krwinek')
 
 INSERT INTO [dbo].[Wizyta] (opis,diagnoza,stan,data_rej,data_wyk_wizyty,id_pac,id_rej,id_lekarza)
 VALUES
-('','','Oczekuj¹ca','20160614 01:00:00 PM','',1,1,1)
+('','','Oczekuj¹ca','2016-06-15 00:00:00.000','2016-06-16 00:00:00.000',1,1,1)
+INSERT INTO [dbo].[Wizyta] (opis,diagnoza,stan,data_rej,data_wyk_wizyty,id_pac,id_rej,id_lekarza)
+VALUES
+('','','Zakoñczona','2016-06-15 00:00:00.000','2016-06-16 00:00:00.000',2,1,1)
+INSERT INTO [dbo].[Wizyta] (opis,diagnoza,stan,data_rej,data_wyk_wizyty,id_pac,id_rej,id_lekarza)
+VALUES
+('','','Oczekuj¹ca','2016-06-15 00:00:00.000','2016-06-16 00:00:00.000',3,1,1)
+
+INSERT INTO [dbo].[Wizyta] (opis,diagnoza,stan,data_rej,data_wyk_wizyty,id_pac,id_rej,id_lekarza)
+VALUES
+('','','Oczekuj¹ca','2016-06-16 00:00:00.000','2016-06-17 00:00:00.000',3,1,1)
+
+
 
 
 

@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textbox_nazwisko = new System.Windows.Forms.TextBox();
+            this.textbox_stan = new System.Windows.Forms.TextBox();
+            this.textbox_datarej = new System.Windows.Forms.TextBox();
+            this.textbox_imie = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textbox_opis = new System.Windows.Forms.TextBox();
+            this.textbox_diagnoza = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.button_wykaz_bf = new System.Windows.Forms.Button();
+            this.button_pokaz_wiz = new System.Windows.Forms.Button();
+            this.button_pokaz_bl = new System.Windows.Forms.Button();
+            this.button_zlec_lab = new System.Windows.Forms.Button();
+            this.button_zakoncz = new System.Windows.Forms.Button();
+            this.button_anuluj = new System.Windows.Forms.Button();
+            this.button_powrot = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -59,38 +59,42 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Imię";
             // 
-            // textBox1
+            // textbox_nazwisko
             // 
-            this.textBox1.Location = new System.Drawing.Point(107, 68);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(132, 20);
-            this.textBox1.TabIndex = 5;
+            this.textbox_nazwisko.Location = new System.Drawing.Point(107, 68);
+            this.textbox_nazwisko.Name = "textbox_nazwisko";
+            this.textbox_nazwisko.ReadOnly = true;
+            this.textbox_nazwisko.Size = new System.Drawing.Size(132, 20);
+            this.textbox_nazwisko.TabIndex = 5;
+            this.textbox_nazwisko.TabStop = false;
             // 
-            // textBox2
+            // textbox_stan
             // 
-            this.textBox2.Location = new System.Drawing.Point(392, 68);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(132, 20);
-            this.textBox2.TabIndex = 6;
+            this.textbox_stan.Location = new System.Drawing.Point(392, 68);
+            this.textbox_stan.Name = "textbox_stan";
+            this.textbox_stan.ReadOnly = true;
+            this.textbox_stan.Size = new System.Drawing.Size(132, 20);
+            this.textbox_stan.TabIndex = 6;
+            this.textbox_stan.TabStop = false;
             // 
-            // textBox3
+            // textbox_datarej
             // 
-            this.textBox3.Location = new System.Drawing.Point(392, 23);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(132, 20);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textbox_datarej.Location = new System.Drawing.Point(392, 23);
+            this.textbox_datarej.Name = "textbox_datarej";
+            this.textbox_datarej.ReadOnly = true;
+            this.textbox_datarej.Size = new System.Drawing.Size(132, 20);
+            this.textbox_datarej.TabIndex = 7;
+            this.textbox_datarej.TabStop = false;
+            this.textbox_datarej.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // textbox_imie
             // 
-            this.textBox4.Location = new System.Drawing.Point(107, 23);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(132, 20);
-            this.textBox4.TabIndex = 8;
+            this.textbox_imie.Location = new System.Drawing.Point(107, 23);
+            this.textbox_imie.Name = "textbox_imie";
+            this.textbox_imie.ReadOnly = true;
+            this.textbox_imie.Size = new System.Drawing.Size(132, 20);
+            this.textbox_imie.TabIndex = 8;
+            this.textbox_imie.TabStop = false;
             // 
             // label2
             // 
@@ -122,23 +126,23 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Stan";
             // 
-            // textBox5
+            // textbox_opis
             // 
-            this.textBox5.Location = new System.Drawing.Point(107, 136);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(132, 75);
-            this.textBox5.TabIndex = 12;
+            this.textbox_opis.Location = new System.Drawing.Point(107, 136);
+            this.textbox_opis.Multiline = true;
+            this.textbox_opis.Name = "textbox_opis";
+            this.textbox_opis.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textbox_opis.Size = new System.Drawing.Size(132, 75);
+            this.textbox_opis.TabIndex = 12;
             // 
-            // textBox6
+            // textbox_diagnoza
             // 
-            this.textBox6.Location = new System.Drawing.Point(107, 249);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox6.Size = new System.Drawing.Size(132, 75);
-            this.textBox6.TabIndex = 13;
+            this.textbox_diagnoza.Location = new System.Drawing.Point(107, 249);
+            this.textbox_diagnoza.Multiline = true;
+            this.textbox_diagnoza.Name = "textbox_diagnoza";
+            this.textbox_diagnoza.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textbox_diagnoza.Size = new System.Drawing.Size(132, 75);
+            this.textbox_diagnoza.TabIndex = 13;
             // 
             // label5
             // 
@@ -160,100 +164,100 @@
             this.label6.TabIndex = 15;
             this.label6.Text = "Diagnoza";
             // 
-            // button1
+            // button_wykaz_bf
             // 
-            this.button1.Location = new System.Drawing.Point(351, 116);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 59);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Wykaz badań fizykalnych";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_wykaz_bf.Location = new System.Drawing.Point(351, 116);
+            this.button_wykaz_bf.Name = "button_wykaz_bf";
+            this.button_wykaz_bf.Size = new System.Drawing.Size(173, 59);
+            this.button_wykaz_bf.TabIndex = 16;
+            this.button_wykaz_bf.Text = "Wykaz badań fizykalnych";
+            this.button_wykaz_bf.UseVisualStyleBackColor = true;
+            this.button_wykaz_bf.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // button_pokaz_wiz
             // 
-            this.button2.Location = new System.Drawing.Point(351, 310);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(173, 59);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Pokaż wizyty";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_pokaz_wiz.Location = new System.Drawing.Point(351, 310);
+            this.button_pokaz_wiz.Name = "button_pokaz_wiz";
+            this.button_pokaz_wiz.Size = new System.Drawing.Size(173, 59);
+            this.button_pokaz_wiz.TabIndex = 17;
+            this.button_pokaz_wiz.Text = "Pokaż wizyty";
+            this.button_pokaz_wiz.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // button_pokaz_bl
             // 
-            this.button3.Location = new System.Drawing.Point(351, 245);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(173, 59);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Pokaż badania";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button_pokaz_bl.Location = new System.Drawing.Point(351, 245);
+            this.button_pokaz_bl.Name = "button_pokaz_bl";
+            this.button_pokaz_bl.Size = new System.Drawing.Size(173, 59);
+            this.button_pokaz_bl.TabIndex = 18;
+            this.button_pokaz_bl.Text = "Pokaż badania";
+            this.button_pokaz_bl.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // button_zlec_lab
             // 
-            this.button4.Location = new System.Drawing.Point(351, 182);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(173, 59);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "Zleć badanie laboratoryjne";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button_zlec_lab.Location = new System.Drawing.Point(351, 182);
+            this.button_zlec_lab.Name = "button_zlec_lab";
+            this.button_zlec_lab.Size = new System.Drawing.Size(173, 59);
+            this.button_zlec_lab.TabIndex = 19;
+            this.button_zlec_lab.Text = "Zleć badanie laboratoryjne";
+            this.button_zlec_lab.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // button_zakoncz
             // 
-            this.button5.Location = new System.Drawing.Point(203, 397);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 59);
-            this.button5.TabIndex = 20;
-            this.button5.Text = "Zakończ";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button_zakoncz.Location = new System.Drawing.Point(203, 397);
+            this.button_zakoncz.Name = "button_zakoncz";
+            this.button_zakoncz.Size = new System.Drawing.Size(120, 59);
+            this.button_zakoncz.TabIndex = 20;
+            this.button_zakoncz.Text = "Zakończ";
+            this.button_zakoncz.UseVisualStyleBackColor = true;
+            this.button_zakoncz.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // button_anuluj
             // 
-            this.button6.Location = new System.Drawing.Point(329, 397);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 59);
-            this.button6.TabIndex = 21;
-            this.button6.Text = "Anuluj";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button_anuluj.Location = new System.Drawing.Point(329, 397);
+            this.button_anuluj.Name = "button_anuluj";
+            this.button_anuluj.Size = new System.Drawing.Size(120, 59);
+            this.button_anuluj.TabIndex = 21;
+            this.button_anuluj.Text = "Anuluj";
+            this.button_anuluj.UseVisualStyleBackColor = true;
+            this.button_anuluj.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // button_powrot
             // 
-            this.button7.Location = new System.Drawing.Point(455, 397);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(120, 59);
-            this.button7.TabIndex = 22;
-            this.button7.Text = "Powrót";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button_powrot.Location = new System.Drawing.Point(455, 397);
+            this.button_powrot.Name = "button_powrot";
+            this.button_powrot.Size = new System.Drawing.Size(120, 59);
+            this.button_powrot.TabIndex = 22;
+            this.button_powrot.Text = "Powrót";
+            this.button_powrot.UseVisualStyleBackColor = true;
+            this.button_powrot.Click += new System.EventHandler(this.button7_Click);
             // 
-            // Wizyta
+            // frmWizyta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(592, 468);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_powrot);
+            this.Controls.Add(this.button_anuluj);
+            this.Controls.Add(this.button_zakoncz);
+            this.Controls.Add(this.button_zlec_lab);
+            this.Controls.Add(this.button_pokaz_bl);
+            this.Controls.Add(this.button_pokaz_wiz);
+            this.Controls.Add(this.button_wykaz_bf);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textbox_diagnoza);
+            this.Controls.Add(this.textbox_opis);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textbox_imie);
+            this.Controls.Add(this.textbox_datarej);
+            this.Controls.Add(this.textbox_stan);
+            this.Controls.Add(this.textbox_nazwisko);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Wizyta";
+            this.Name = "frmWizyta";
             this.Text = "Wizyta";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LekarzB_FormClosed);
             this.ResumeLayout(false);
@@ -264,23 +268,23 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textbox_nazwisko;
+        private System.Windows.Forms.TextBox textbox_stan;
+        private System.Windows.Forms.TextBox textbox_datarej;
+        private System.Windows.Forms.TextBox textbox_imie;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textbox_opis;
+        private System.Windows.Forms.TextBox textbox_diagnoza;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button_wykaz_bf;
+        private System.Windows.Forms.Button button_pokaz_wiz;
+        private System.Windows.Forms.Button button_pokaz_bl;
+        private System.Windows.Forms.Button button_zlec_lab;
+        private System.Windows.Forms.Button button_zakoncz;
+        private System.Windows.Forms.Button button_anuluj;
+        private System.Windows.Forms.Button button_powrot;
     }
 }

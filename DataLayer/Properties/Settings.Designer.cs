@@ -32,5 +32,15 @@ namespace DataLayer.Properties {
                 return ((string)(this["PrzychodniaConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost;Initial Catalog=Przychodnia1;Integrated Security=True")]
+        public string Przychodnia1ConnectionString {
+            get {
+                return ((string)(this["Przychodnia1ConnectionString"]));
+            }
+        }
     }
 }
